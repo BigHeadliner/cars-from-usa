@@ -541,6 +541,9 @@ a{
       font-weight: 400; 
       font-size: 28px; 
       line-height: 36px;
+   } 
+   .carousele__item-img{ 
+      width: 100%;
    }
  } 
   
@@ -586,8 +589,13 @@ a{
    }  
 
    .services__inner,  
-   .benefits { 
+   .benefits, 
+   .carousel { 
      margin-bottom: 50px; 
+   } 
+    
+   .carousel .slick-dots button{ 
+      width: 10px;
    }
  }  
   
